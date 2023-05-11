@@ -15,10 +15,11 @@ void dfs_recursion(int i,int *visited,int(*adjmatrix)[MAX]){
     }
 }
 int main(){
-    inputfile open("graph.txt",ios::in);
+    inputfile.open("graph.txt",ios::in);
     inputfile >>n;
     adjmatrix[n][n];
     for(int i=0;i<n;i++){
-        for(int j=0;)
+        // for(int j=0;)
     }
 }
+// To Be Completed
